@@ -1,5 +1,3 @@
-var i = 0
-
 function forLoop(i){
 for (let i = 0; i < 25; i++) {
   if ( i === 1 ) {

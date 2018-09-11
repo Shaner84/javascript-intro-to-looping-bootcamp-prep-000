@@ -3,10 +3,10 @@ var i = i++
 function forLoop(i){
 for (let i = 0; i < 25; i++) {
   if ( i === 1 ) {
-    return ("I am 1 strange loop.")
+    return "I am 1 strange loop."
   }  
     else {
-      return ("I am ${i} strange loops.")
+      return "I am ${i} strange loops."
     }
 }
 }

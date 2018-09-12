@@ -16,13 +16,18 @@ function whileLoop(n) {
   }
   return "done"
 }
-    
-function doWhileLoop(array) {
+
     function incrementVariable() {
   i = i + 1;
+}    
+
+function doWhileLoop(array) {
+    do {
+
+
+}  while (array.length > 0 && incrementVariable())
+return array
 }
 
-  do {
-    array.length > 0 && incrementVariable()
-}  while   
+
   
